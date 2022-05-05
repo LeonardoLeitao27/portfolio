@@ -18,3 +18,41 @@
     max-width: 240px;
     align-items: center;
 }
+
+.bloco-habilidades{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 240px;
+    width: 240px;
+    border-radius: 1rem;
+    padding: 15px;
+    justify-content: center;
+}
+
+.nivel{
+    font-size: 15px;
+    padding: 4px;
+}
+
+.progress-bar{
+    height: 20px;
+    width: 150px;
+    padding: 5px;
+    background-color: #E4E9F7;
+    display: flex;
+    border-radius: 7px;
+  }
+  
+.progress-bar::before{
+    content: "";
+    width: 100px;
+    background-color: #707070;
+    border-radius: 6px;
+}
+
+.habilidades{
+    display: flex;
+}
