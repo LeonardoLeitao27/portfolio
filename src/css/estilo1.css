@@ -1,0 +1,20 @@
+.perfil{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegue{
+    display: flex;
+    
+    align-items: center;
+}
+
+.perfil img{
+    margin: 40px;
+    border-radius: 9rem;
+    border: 4px solid #707070;
+    max-width: 240px;
+    align-items: center;
+}
