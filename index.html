@@ -1,21 +1,97 @@
+<!-- Coding by CodingLab | www.codinglabweb.com -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+<!-- CSS -->
+    <link rel="stylesheet" href="./src/css/estilo-barra.css">
+    
+<!-- icones -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Dashboard Sidebar Menu</title> 
 </head>
 <body>
-    <div>
-        <nav>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="sidebar close">
+        
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./src/imgs/logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Leonardo Leitão</span>
+                    <span class="profession">Web developer</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-body icon' ></i>
+                            <span class="text nav-text">Quem sou eu</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-terminal icon' ></i>
+                            <span class="text nav-text">Habilidades</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-windows icon'></i>
+                            <span class="text nav-text">Portfolio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-contact icon'></i>
+                            <span class="text nav-text">Contato</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="home">
+        <div class="text">Dashboard Sidebar</div>
+    </section>
+
+    <script src="./src/js/script-barra.js"></script>
+
 </body>
 </html>
