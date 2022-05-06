@@ -25,8 +25,8 @@
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-    height: 240px;
-    width: 240px;
+    max-height: 240px;
+    max-width: 240px;
     border-radius: 1rem;
     padding: 15px;
     justify-content: center;
@@ -54,5 +54,47 @@
 }
 
 .habilidades{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.intro img{
+    background-color: white;
+    max-width: 400px;
+    border-radius: 16px;
+    border: none;
+    margin: 0px;
+}
+
+.text, .home{
+    width: 100%;
+}
+
+.blocosproj{
+    text-decoration: none;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    max-height: 240px;
+    max-width: 240px;
+    border-radius: 1rem;
+    padding: 15px;
+    justify-content: center;
+}
+
+.projeto{
+    text-decoration: none;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    max-height: 240px;
+    max-width: 240px;
+    border-radius: 1rem;
+    padding: 15px;
+    justify-content: center;
 }
