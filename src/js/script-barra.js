@@ -15,7 +15,7 @@ toggle.addEventListener("click" , () =>{
 
 modeSwitch.addEventListener("click" , () =>{
     body.classList.toggle("dark");
-
+    sidebar.classList.toggle("close");
     for (let i = 0; i < iconeH.length; i++) {
         iconeH[i].classList.toggle("fundo-bloco");
       }
