@@ -307,3 +307,10 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
+
+@media screen and (max-width: 615px) {
+    .sidebar.close{
+        width: 66px;
+        padding: 0px;
+    }
+}
