@@ -110,15 +110,17 @@
 @media screen and (max-width: 615px) {
     .perfil img{
         max-width: 130px;
+        margin: 10px 10px 10px 40px;
     }
 
     p{
-        font-size: 22px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
 
     h3{
-        font-size: 22px;
+        font-size: 18px;
+        margin-right: 20px;
     }
     h4{
         font-size: 14px;
