@@ -91,10 +91,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
     max-height: 240px;
     max-width: 240px;
     border-radius: 1rem;
     padding: 15px;
     justify-content: center;
+}
+
+.fundo-bloco{
+    background-color: #707070;
 }
