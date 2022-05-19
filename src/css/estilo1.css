@@ -128,6 +128,15 @@
     
     .text{
         margin: 0px;
-        padding: 0px;
+        padding: 62px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navegue{
+        display: flex;
+        align-items:initial;
     }
 }
