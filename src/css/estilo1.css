@@ -129,6 +129,13 @@
         margin: 0px;
         margin-top: 40px;
     }
+
+    .texto-img{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 
