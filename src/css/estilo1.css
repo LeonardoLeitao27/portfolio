@@ -50,7 +50,7 @@
   
 .progress-bar::before{
     content: "";
-    width: 100px;
+    width: 55px;
     background-color: #707070;
     border-radius: 6px;
 }
@@ -64,10 +64,11 @@
 
 .intro img{
     background-color: white;
-    max-width: 400px;
+    max-width: 40vw;
     border-radius: 16px;
     border: none;
     margin: 0px;
+    margin-top: 40px;
 }
 
 .text, .home{
