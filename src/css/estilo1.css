@@ -63,13 +63,14 @@
 }
 
 .intro img{
-    background-color: white;
+
     max-width: 40vw;
     border-radius: 16px;
     border: none;
     margin: 0px;
     margin-top: 40px;
 }
+
 
 .text, .home{
     width: 100%;
@@ -110,9 +111,23 @@
     background-color: #707070;
 }
 
+.texto-img{
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width: 615px) {
     .perfil{
         flex-direction: column;
+    }
+
+    .intro img{
+        background-color: white;
+        max-width: 120vw;
+        border-radius: 16px;
+        border: none;
+        margin: 0px;
+        margin-top: 40px;
     }
 }
 
