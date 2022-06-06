@@ -7,16 +7,18 @@
 
 .navegue{
     display: flex;
-    
     align-items: center;
 }
 
 .perfil img{
     margin: 40px;
-    border-radius: 9rem;
-    border: 4px solid #707070;
-    max-width: 240px;
+    max-width: 23vw;
     align-items: center;
+}
+
+.perfil .name-dev{
+    max-width: 35vw;
+    margin-right: 80px;
 }
 
 .bloco-habilidades{
@@ -108,9 +110,21 @@
 }
 
 @media screen and (max-width: 615px) {
+    .perfil{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 975px) {
     .perfil img{
         max-width: 35vw;
         margin: 10px 10px 10px 40px;
+    }
+
+    .perfil .name-dev{
+        max-width: 40vw;
+        margin: 10px 10px 10px 10px;
     }
 
     p{
