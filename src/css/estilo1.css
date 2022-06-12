@@ -114,6 +114,11 @@
     background-color: #5046c2;
 }
 
+.fundo-bloco:hover{
+    /* background-color: #707070; */
+    background-color: #2d2863;
+}
+
 .texto-img{
     display: flex;
     align-items: center;
@@ -141,9 +146,7 @@
         margin-right: 60px;
         margin-top: 30px;
     }
-    h4{
-        font-size: 1.6rem;
-    }
+   
     
     .text{
         margin: 0px;
@@ -157,6 +160,21 @@
     .navegue{
         display: flex;
         align-items:initial;
+    }
+
+    .navegue{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 1.2rem;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
     }
 }
 
